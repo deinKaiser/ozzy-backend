@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "Product",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProductName": {
+      "type": "string",
+      "required": true
+    },
+    "metric_units": {
+      "collection": "metric-unit"
+    },
+    "providers": {
+      "via": "products",
+      "collection": "provider"
+    }
+  }
+}
