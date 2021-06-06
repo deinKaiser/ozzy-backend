@@ -16,12 +16,12 @@
       "type": "string",
       "required": true
     },
-    "metric_units": {
-      "collection": "metric-unit"
-    },
     "provider": {
       "via": "products",
       "model": "provider"
+    },
+    "metric_units": {
+      "collection": "metric-unit"
     }
   }
 }

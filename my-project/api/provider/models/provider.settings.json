@@ -18,8 +18,14 @@
       "unique": true
     },
     "products": {
-      "collection": "product",
-      "via": "provider"
+      "via": "provider",
+      "autoPopulate": true,
+      "collection": "product"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "providers"
     }
   }
 }

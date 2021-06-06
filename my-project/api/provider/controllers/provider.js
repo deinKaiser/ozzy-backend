@@ -5,4 +5,12 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+    // find: ctx => {
+    //     const result = strapi.query('provider').find(ctx.query, [
+    //         { path: "product" },
+    //         { path: "metric_unit" }
+    //     ])
+    //     return result;
+    //   },
+};
