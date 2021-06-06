@@ -19,9 +19,9 @@
     "metric_units": {
       "collection": "metric-unit"
     },
-    "providers": {
+    "provider": {
       "via": "products",
-      "collection": "provider"
+      "model": "provider"
     }
   }
 }

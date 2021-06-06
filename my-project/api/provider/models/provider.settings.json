@@ -19,8 +19,7 @@
     },
     "products": {
       "collection": "product",
-      "via": "providers",
-      "dominant": true
+      "via": "provider"
     }
   }
 }
